@@ -21,8 +21,9 @@ color: #B7E6FF;
 input:focus{
     outline: none !important;
     border: none !important;
+    width: 55%;
 }
-input::placeholder, .phrase p {
+ .phrase p {
     font-family: 'montserat';
 font-style: normal;
 font-weight: 400;
@@ -31,9 +32,15 @@ line-height: 23px;
 
 color: #BDD3DF;
 }
+input::placeholder{
+
+}
 .marque{
     height: 30px;
     
+}
+.nier{
+    width: 70% !important;
 }
  .sentences p, .bour {
     font-family: 'Cabin';
@@ -45,9 +52,11 @@ line-height: 25px;
 color: #A5ADB1;
 }
 
+
 .ger:focus{
     outline: none !important;
     border: none !important;
+    /* width: 100% !important; */
 }
 .yone{
     background-image: url('./image/fie.png');
@@ -79,4 +88,12 @@ footer{
     background-size: 20%, 8%;
     background-position: left, right;
     background-position-x: 0, 97%;
+}
+@media (max-width:385px)  {
+    .search{
+    height: 20px;
+}
+.nier{
+    width: 80% !important;
+}
 }
