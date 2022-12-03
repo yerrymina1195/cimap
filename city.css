@@ -1,0 +1,82 @@
+
+
+
+header{
+    background-image: url('./image/Header.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.deg{
+    
+    font-family: 'montserat';
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+
+color: #B7E6FF;
+}
+input:focus{
+    outline: none !important;
+    border: none !important;
+}
+input::placeholder, .phrase p {
+    font-family: 'montserat';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 23px;
+
+color: #BDD3DF;
+}
+.marque{
+    height: 30px;
+    
+}
+ .sentences p, .bour {
+    font-family: 'Cabin';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+
+color: #A5ADB1;
+}
+
+.ger:focus{
+    outline: none !important;
+    border: none !important;
+}
+.yone{
+    background-image: url('./image/fie.png');
+    background-repeat: no-repeat;
+    background-size: 95%;
+}
+.for{
+    color: white;
+
+background: rgba(19, 241, 252, 0.2);
+border: 2px solid rgba(19, 241, 252, 0.2);
+border-radius: 24.5px;
+}
+.prefooter{
+    background-image: url('./image/Vector\ 5.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+   
+  
+}
+.makhan img{
+    height: 10vh;
+    
+}
+footer{
+    background-image: url('./image/lefttree.png'), url('./image/lampright.png');
+    background-repeat: no-repeat, no-repeat;
+    background-size: 20%, 8%;
+    background-position: left, right;
+    background-position-x: 0, 97%;
+}
